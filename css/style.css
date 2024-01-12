@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+    background-color: #FAFAF9;
+}
+
+.container{
+    margin: 72px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.stared{
+    border-radius: 50px;
+    background-color: #F5C044;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.stared p{
+    padding-top: 5px;
+}
+
+.text-content{
+    width: 80%;
+    padding-right: 40px;
+}
+.text-content h1{
+    font-size: 2.25rem;
+    margin: 20px 0px;
+}
+
+.text-content p{
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin-bottom: 45px;
+    color: #52525A;
+}
+
+.list-item{
+    font-size: 0.875rem;
+    color: #52525A;
+}
+
+.text-content > ul{
+    list-style-image: url(../images/Done_ring_round_fill.svg); 
+    padding-left: 40px;   
+}
+
+.card{
+    width: 65%;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card h5{
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.card p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #52525A;
+}
+
+.logo{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.card-left{
+    margin-left: 210px;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .text-content{
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .container{
+        margin-left: 40px;
+    }
+}
